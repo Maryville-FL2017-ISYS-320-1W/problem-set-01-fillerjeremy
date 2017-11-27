@@ -12,7 +12,7 @@
 | initialization	 |				 |				 |				 | 
 | 1				 |				 |				 |				 |
 I'm not sure how to write this as a table, but the program updates the value for number each time it runs, until MAX is less than 1. 
-Starts wtih 7, then 12, then 15, then 16. End result is "The result is 16"
+Starts wtih 7, then 12, then 15, then 16. End result is "The result is 16
 
 */
 
