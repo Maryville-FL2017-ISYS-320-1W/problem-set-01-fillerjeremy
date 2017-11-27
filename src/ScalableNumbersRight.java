@@ -1,14 +1,15 @@
 /*
   	ISYS 320
-  	Name(s):
-  	Date: 
+  	Name(s): Jeremy Filler
+  	Date: 11/26/17
 */
 
-public class ScalableNumbersRight {
+public class ScalableNumbersRIght {
 
 	public static void main(String[] args) {
-		for( int line = 1; line <= 5; line++ ) {
-			for( int spacesIndex = 1; spacesIndex <= 5 - line; spacesIndex++ ) {
+		int j = 8;
+		for( int line = 1; line <= j; line++ ) {
+			for( int spacesIndex = 1; spacesIndex <= j - line; spacesIndex++ ) {
 				System.out.print(" ");
 			}
 			for( int numbersIndex = 1; numbersIndex <= line; numbersIndex++ ) {
