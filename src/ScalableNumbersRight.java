@@ -4,7 +4,7 @@
   	Date: 11/26/17
 */
 
-public class ScalableNumbersRIght {
+public class ScalableNumbersRight {
 
 	public static void main(String[] args) {
 		int j = 8;

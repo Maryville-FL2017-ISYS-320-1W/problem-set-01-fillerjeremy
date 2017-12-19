@@ -15,13 +15,12 @@ public class DescendingSquares {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Looper();
 	}
-	public static void Looper {
-		firstnumber = 100;
-		for (int i = 19; i >= 3; i = i-2) {
-			System.out.print(firstnumber - i);
+	public static void Looper() {
+		for (int i = 10; i > 0; i--) {
+			System.out.print(i*i + " ");
 		}
 	}
-	Looper();
+	
 }

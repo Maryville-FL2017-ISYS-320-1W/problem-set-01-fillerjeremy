@@ -13,14 +13,18 @@ public class NestedLoopBox {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+	printStars(6);	
 			
-	for (int i = 1; i <= 6; i++) {
-	Stars();
-	}
-	}
-	private static void Stars() {
-			System.out.println("*****");
 		
 	}
-
+	public static void printStars(int i) {
+		for (int t = 1; t <= i; t++) {
+			for (int s = 1; s <= 5; s++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
 	}
+	
+	}
+	

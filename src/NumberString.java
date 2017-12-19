@@ -14,8 +14,14 @@ public class NumberString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		for (int i = 1; i <= 3; i++) {
-			System.out.println("000111222333444555666777888999");
+		for (int i = 1; i <=3; i++) {
+			for (int j = 0; j <= 9; j++) {
+				for (int k = 1; k <= 3; k++) {
+					System.out.print(j);
+				}
+			}
+				
+			System.out.println();
 		}
 		
 	}
